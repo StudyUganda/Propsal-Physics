@@ -1,0 +1,152 @@
+\documentclass[12pt, a4paper, oneside]{thesis} 
+\usepackage{natbib}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[justification=justified, singlelinecheck=false]{caption}
+\usepackage{tocloft,calc}
+\bibliography{ref}
+
+\renewcommand{\cftchappresnum}{Chapter }
+\AtBeginDocument{\addtolength\cftchapnumwidth{\widthof{\bfseries Chapter }}}
+\usepackage[english]{babel}
+\usepackage{mathptmx}
+\usepackage{graphicx}
+\title{Sections and Chapters}
+\begin{document}
+\pagestyle{plain}
+\graphicspath{{./images/}} 
+\frontmatter
+\begin{center}
+\includegraphics{mulogo}\\
+\textbf{MUNI UNIVERSITY }\\
+\textbf{Faculity Of Science }\\
+\textbf{Department Of Physics}\\
+\vspace{2cm}
+{\LARGE \bf  THE LAND USE CHANGE ALONG RIVER ASHA: A REMOTE SENSING APPROACH }\\ [2.0cm]
+
+BY \\ MWIJUSYA OLISEH \\ REG. NO: 2019/U/SMP00195 \\ STUDENT NO. 1901200195
+\vspace{1cm}
+
+\textbf{SUPERVISOR:} \\ DR. NDUGU NELSON\\
+
+ 
+\textbf{A research proposal submitted in partial fulfilment of the requirements for the award of the Bachelor of Science with Education Degree of Muni University}
+\hfill \break
+
+ \textbf{MARCH, 2022}
+\end{center}
+
+\clearpage 
+\vspace{7cm}
+
+\addcontentsline{toc}{section}{DECLARATION}
+\section*{DECLARATION}
+
+\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+I declare that this research proposal is my work and it has never been submitted to before for any academic award in any university or institution by any other person.
+\vspace{1cm}
+Name:   Mwijusya Oliseh\\
+
+Signature:\\
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+ 
+Date:\\
+\rule[1em]{25em}{0.5pt} % This prints a line to write the date
+
+
+
+
+
+\clearpage % Start a new page
+\addcontentsline{toc}{section}{APPROVAL}
+\section*{APPROVAL}
+
+\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+ I certify that this research proposal has been submitted as with my approval as the university supervisor and it satisfies the partial fulfillment  of the requirements of the award of bachelors degree of science with education of Muni University. \\
+
+1. Dr. Nelson Ndugu \\
+   Muni University ,\textsc{Uganda}\\
+  Faculty of Science, Department of Physics.\\P.O Box 725 , Arua\\
+  Signature:\\
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+
+Date:\\
+\rule[1em]{25em}{0.5pt} \\% This prints a line to write the date
+
+\clearpage 
+\vspace{7cm}
+
+\addcontentsline{toc}{section}{DEDICATION}
+\section*{DEDICATION}
+
+\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+I declare that this research proposal is my work and it has never been submitted to before for any academic award in any university or institution by any other person.
+\vspace{1cm}
+Name:   Mwijusya Oliseh\\
+
+Signature:\\
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+ 
+Date:\\
+\rule[1em]{25em}{0.5pt} % This prints a line to write the date
+
+\clearpage 
+\vspace{7cm}
+
+\addcontentsline{toc}{section}{ACKNOLODGEMNT}
+\section*{ACKNOLODGEMNT}
+
+\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+I declare that this research proposal is my work and it has never been submitted to before for any academic award in any university or institution by any other person.
+\vspace{1cm}
+Name:   Mwijusya Oliseh\\
+
+Signature:\\
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+ 
+Date:\\
+\rule[1em]{25em}{0.5pt} % This prints a line to write the date
+
+\clearpage
+
+\tableofcontents
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures\newpage
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables\newpage
+\clearpage
+
+\newlist{abbrv}{itemize}{1}
+\setlist[abbrv,1]{label=,labelwidth=1in,align=parleft,itemsep=0.1\baselineskip,leftmargin=!}
+
+
+\thispagestyle{empty}
+\addcontentsline{toc}{section}{List of Acronyms and Symbols}
+\section*{List of Acronyms and Symbols}
+
+\begin{abbrv}
+\item[ADL]                   Activities of Daily Life
+\item[AST]                   Alternate Step Test
+\item[BMI]                   Body Mass Index
+\item[CSFT]                  Cross Step moving on Four Stops
+\item[DBN]                   Dynamic Bayesian Networks
+\item[WEFAPS]                Wearable Fall Assessment \& Prediction System
+\item[WHO]                   World Health Organization
+\end{abbrv}
+
+\clearpage
+\mainmatter
+
+\chapter{Introduction}
+\section{Background:}
+
+Uganda, especiaaly Westnile is Undergoing rapid urbanisaton \textbf{Rivers}  plays an important Role in the urban life and Landuse along the river is one of the major factors that affect the life span of a River.\citep{miguez2012sustainable}\\
+This is a remote sensing approach to establish a link between the landuse change along river ASha and how the Landscape diversity  of the river has changed in the due course of time.
+% 
+
+
+\addcontentsline{toc}{chapter}{References}
+\bibliography{1}
+\bibliographystyle{apa}
+
+\end{document}
